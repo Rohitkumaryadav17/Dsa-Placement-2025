@@ -1,5 +1,11 @@
 public class basic{
     public static void main(String[] args) {
-        System.out.println("Dsa Learner");
+        int a=8;
+        int b=9;
+        int sum=a+b;
+        System.out.println(sum);
+
+        // System.out.println("Dsa Learner");
+
     }
 }
