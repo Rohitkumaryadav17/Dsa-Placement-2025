@@ -1,7 +1,10 @@
 public class string {
     public static void main(String[] args) {
-        System.err.println("hello string");
-        
+        String name="Rohit kumar Yadav";
+        System.out.println(name.length());
+
+   
+
     }
     
 }
