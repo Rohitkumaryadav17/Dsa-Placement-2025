@@ -1,7 +1,13 @@
 public class string {
     public static void main(String[] args) {
         String name="Rohit kumar Yadav";
-        System.out.println(name.length());
+        String name1="kapil kumar Gupta";
+        System.out.println(name.equals(name1));
+    
+
+
+        // System.out.println(name.length());
+
 
    
 
