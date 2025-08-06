@@ -4,6 +4,7 @@ public class basic{
         int b=9;
         int sum=a+b;
         System.out.println(sum);
+        System.out.println(a);
 
         // System.out.println("Dsa Learner");
 
