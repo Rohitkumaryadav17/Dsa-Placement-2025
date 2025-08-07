@@ -28,13 +28,36 @@ public class array {
 
 
      }
+     /// Reverse of array 
+      public static void reverse(int numb[]){
+          int start=0; int end=numb.length-1;
+          while(start<end){
+            // swappp
+            int temp=numb[start];
+            numb[start]=numb[end];
+            numb[end]=temp;
+            start++;
+            end--;
+
+          }
+ /// print reverse array 
+
+  for(int i=0;i<numb.length;i++){
+    System.out.println(numb[i]+"");
+  }
+System.out.println();
+
+    }
      
     
 
     public static void main(String[] args) {
         int numb[]={4,56,89,99,1};
-        System.out.println(getlargest(numb));
-        System.out.println(smallest(numb));
+        // System.out.println(getlargest(numb));
+        // System.out.println(smallest(numb));
+         reverse(numb);
+
+        
         
         
     }
