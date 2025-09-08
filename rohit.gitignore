@@ -1,0 +1,10 @@
+# Ignore large files
+*.zip
+*.exe
+*.mp4
+*.avi
+*.png
+*.jpg
+*.pdf
+*.rar
+*.7z
