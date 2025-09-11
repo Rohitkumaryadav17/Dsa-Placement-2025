@@ -8,7 +8,7 @@ public class factorial {
     }
     
     public static void main(String[]args){
-        System.out.println(fact(11));
+        System.out.println(fact(12));
 
     }
     
