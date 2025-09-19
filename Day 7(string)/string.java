@@ -1,6 +1,6 @@
 public class string {
     public static void main(String[] args) {
-        String name="Rohit kumar Yadav";
+        String name="Rohit  Yadav";
         // String name1="Rohit kumar Yadav";
         // System.out.println(name.equals(name1));
     
