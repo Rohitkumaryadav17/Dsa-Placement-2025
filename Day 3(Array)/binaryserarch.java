@@ -21,7 +21,7 @@ public class binaryserarch {
     }
       
     public static void main(String[] args) {
-        int arr[]={4,5,6,8};
+        int arr[]={4,5,6,9};
         int key=6;
         int result=binary(arr,key);
         if(result!=-1){
