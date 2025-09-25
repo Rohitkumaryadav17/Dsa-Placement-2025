@@ -9,7 +9,7 @@ class linearsearch{
              return -1;
     }
     public static void main(String[] args) {
-        int arr[]={3,5,4,9,8};  
+        int arr[]={3,5,4,8,8};  
         int key=8;  
         int index=linearSearch(arr, key);
         if(index==-1){
