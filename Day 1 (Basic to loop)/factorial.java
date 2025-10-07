@@ -8,6 +8,6 @@ public class factorial{
     }
     
     public static void main(String[]args){
-        System.out.println(fact(19));
+        System.out.println(fact(15));
     }    
 }
