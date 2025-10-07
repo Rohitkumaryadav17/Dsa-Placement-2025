@@ -38,13 +38,22 @@ public class logicbuilding {
             System.out.println(n+"*"+i+"="+n*i);
         }
       }
+      public static int findsum(int n){
+        int sum=0;
+        for(int i=0;i<=n;i++){
+            sum=sum+i;
+        }
+        return sum;
+      
+      }
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your number: ");
         int n = sc.nextInt();
         // System.out.println(isEven(n) ? "even" : "odd");
-        printtable(n);
+        // printtable(n);
+         System.out.println(findsum(n));
    
     }
 }
