@@ -42,6 +42,34 @@ public class logicbuilding {
           b=temp;
                 System.out.print("After swapping: a = " + a + ", b = " + b);
           }
+          /// opposite of dice 
+          public static int  oppositeofdice(int n){
+            int ans;
+
+            if(n==6){
+              ans =1;
+          }
+          else if(n==2){
+             ans =5;
+          }
+          else if(n==3){
+          ans =5;
+
+          }
+          else if(n==4){
+            ans =3;
+
+          }
+          else if(n==5){
+             ans =2;
+          }
+          else {
+            ans= 1;
+          }
+          return ans;
+           
+          }
+      
    
       
 
@@ -49,10 +77,16 @@ public class logicbuilding {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your number a: ");
-        int a = sc.nextInt();
-           System.out.print("Enter your number b: ");
-           int b=sc.nextInt();
-          swappoftwonum(a,b);
+          int n = sc.nextInt();
+          System.out.print(oppositeofdice(n));
+
+
+        // int a = sc.nextInt();
+          //  System.out.print("Enter your number b: ");
+          //  int b=sc.nextInt();
+          // swappoftwonum(a,b);
+       
+
         
         // System.out.println(isEven(n) ? "even" : "odd");
         // printtable(n);
