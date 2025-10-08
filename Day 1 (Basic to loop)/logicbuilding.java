@@ -69,6 +69,14 @@ public class logicbuilding {
           return ans;
            
           }
+          /// nth term of ap
+           
+          public static int nthtermAp(int a1,int a2,int n){
+            int d=a2-a1;
+            int nthterm=a1+(n-1)*d;
+
+            return nthterm;
+          }
       
    
       
@@ -76,9 +84,20 @@ public class logicbuilding {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter your number a: ");
-          int n = sc.nextInt();
-          System.out.print(oppositeofdice(n));
+
+   
+          // System.out.print(oppositeofdice(n));
+              System.out.print("Enter first term (a1): ");
+        int a1 = sc.nextInt();
+
+        System.out.print("Enter second term (a2): ");
+        int a2 = sc.nextInt();
+
+        System.out.print("Enter which term you want (n): ");
+        int n = sc.nextInt();
+
+        int result = nthtermAp(a1, a2, n);
+        System.out.println("The " + n + "th term of the AP is: " + result);
 
 
         // int a = sc.nextInt();
