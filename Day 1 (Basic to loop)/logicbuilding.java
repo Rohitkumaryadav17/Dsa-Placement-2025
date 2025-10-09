@@ -77,27 +77,34 @@ public class logicbuilding {
 
             return nthterm;
           }
+          
+
+       
+            
+
+          
       
    
       
 
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+      int arr[]={1,2,3,4,5};
+        // Scanner sc = new Scanner(System.in);
 
    
           // System.out.print(oppositeofdice(n));
-              System.out.print("Enter first term (a1): ");
-        int a1 = sc.nextInt();
+        //       System.out.print("Enter first term (a1): ");
+        // int a1 = sc.nextInt();
 
-        System.out.print("Enter second term (a2): ");
-        int a2 = sc.nextInt();
+        // System.out.print("Enter second term (a2): ");
+        // int a2 = sc.nextInt();
 
-        System.out.print("Enter which term you want (n): ");
-        int n = sc.nextInt();
+        // System.out.print("Enter which term you want (n): ");
+        // int n = sc.nextInt();
 
-        int result = nthtermAp(a1, a2, n);
-        System.out.println("The " + n + "th term of the AP is: " + result);
+        // int result = nthtermAp(a1, a2, n);
+        // System.out.println("The " + n + "th term of the AP is: " + result);
 
 
         // int a = sc.nextInt();
