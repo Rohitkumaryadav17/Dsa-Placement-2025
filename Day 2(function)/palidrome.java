@@ -2,6 +2,8 @@ import java.util.*;
 public class palidrome {
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
+        String b=sc.nextLine();
+        
         System.out.print("Enter your number forchecking palidrome:");
         int a=sc.nextInt();
         int reverse=0;
