@@ -10,7 +10,7 @@ public class sumofdigit {
     }
  
     public static void main(String[]args){
-        int n=863;
+        int n=345;
         System.out.print(Sumofdigit(n));
  
 
