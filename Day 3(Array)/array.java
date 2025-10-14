@@ -49,10 +49,10 @@ System.out.println();
 
     }
      
-    
+  
 
     public static void main(String[] args) {
-        int numb[]={4,56,89,35,1};
+        int numb[]={4,5,89,35,1};
         // System.out.println(getlargest(numb));
         // System.out.println(smallest(numb));
          reverse(numb);
