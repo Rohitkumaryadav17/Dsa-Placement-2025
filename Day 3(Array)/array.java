@@ -52,7 +52,7 @@ System.out.println();
   
 
     public static void main(String[] args) {
-        int numb[]={8,6,45,35,1};
+        int numb[]={8,9,45,35,1};
         // System.out.println(getlargest(numb));
         // System.out.println(smallest(numb));
          reverse(numb);
