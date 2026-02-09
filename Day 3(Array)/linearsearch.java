@@ -1,22 +1,19 @@
+import java.util.*;
 class linearsearch{
-    static int linearSearch(int arr[],int key){
+    static int lnsearch(int arr[],int key){
         for(int i=0;i<arr.length;i++){
             if(arr[i]==key){
-                return i;
-            }
-         
+                return key ;
+            }  
+
         }
-             return -1;
+        return -1;
     }
     public static void main(String[] args) {
-        int arr[]={3,4,9,8,8};  
-        int key=8;  
-        int index=linearSearch(arr, key);
-        if(index==-1){
-            System.out.println("not found");
-        }    
-        else{
-            System.out.println("found at index : "+index);
-        }
+        int arr[]={7,44,9,6};
+        int key=7;
+       System.out.println(lnsearch(arr, 0));
+        
     }
 }
+
